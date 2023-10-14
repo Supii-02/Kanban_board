@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Mulish;
+  src: local(MulishRegular),
+    url('../public/Fonts/Mulish-Regular.ttf')format('ttf'),
+    url('../public/Fonts/Mulish-Regular.woff')format('woff'),
+    url('../public/Fonts/Mulish-Regular.woff2')format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: 'Mulish', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

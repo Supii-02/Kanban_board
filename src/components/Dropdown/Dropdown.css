@@ -1,0 +1,47 @@
+/* styles.css */
+
+.dropdown-wrapper {
+    position: relative;
+    width: 90%;
+    display: inline-block;
+    padding-left: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.dropdown-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nested-dropdown {
+    margin-top: 10px;
+}
+
+.nested-dropdown-item {
+    margin-bottom: 15px;
+}
+
+.nested-dropdown-item select {
+    margin-bottom: 0;
+}
+
+.dropdown-label {
+    font-size: small;
+}
+
+.dropdown-select {
+    margin-left: 5%;
+    font-size: small;
+    border-radius: 5px;
+    width: 5%;
+    padding: 0.25%;
+}
+
+.dropdown-option {
+    font-size: smaller;
+}

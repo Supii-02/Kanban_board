@@ -1,0 +1,42 @@
+.MainDiv {
+    width: 100%;
+
+}
+
+.Card {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2.5%;
+}
+
+.card-text {
+    padding: 0.5% 2.5%;
+}
+
+.card-id {
+    color: grey;
+    font-size: smaller;
+}
+
+.card-title {
+    color: black;
+    font-size: smaller;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-details {
+    display: flex;
+    font-size: small;
+    color: grey;
+    gap: 5%;
+}
+
+.card-tag {
+    border: 0.5px solid grey;
+    padding: 0.25% 0.7%;
+    border-radius: 4px;
+}

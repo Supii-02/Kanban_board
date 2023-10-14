@@ -1,0 +1,12 @@
+.Board {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    background-color: #FAF9F6;
+    padding: 0.5% 2.5%;
+}
+
+.BoardLabel {
+    flex: 1;
+}
